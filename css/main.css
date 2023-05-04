@@ -6,7 +6,7 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
-@media(max-width:1440px) {
+@media(min-width:1440px) {
     .main-component {
         height: 100%;
         display: flex;
