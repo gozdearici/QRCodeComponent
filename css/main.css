@@ -6,65 +6,65 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
-@media(min-width:1440px) {
-    .main-component {
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column; 
-        align-items: center;
-        margin-top: 10%;
-    }
-    
-    .outher-frame {
-        background: white;
-        border-radius: 20px;
-        align-self: center;
-        width: 400px;
-        height: auto;
-        margin-bottom: 0.5em;
-        overflow: hidden;
-    }
-    
-    .outher-frame #image {
-        background: center center;
-        border-radius: 10%;
-        width: 400px;
-        padding: 20px 20px;
-        max-width: 90%;
-    }
-    
-    .outher-frame .first-line{
-        display: inline-block;
-        text-align: center;
-        margin: auto;
-        padding-left: 30px;
-        padding-right: 30px;
-        font-size: 30px;
-        color:  hsl(218, 44%, 22%);
-    }
-    
-    .outher-frame .second-line{
-        display: inline-block;
-        text-align: center;
-        margin-top: 1em;
-        margin-bottom: 3em;
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size: 18px;
-        color: hsl(220, 15%, 55%);
-    }
-    
-    .attribution { 
-        font-size: 11px; 
-        text-align: center; 
-        margin-top: 8em;
-    }
-        
-    .attribution a { 
-        color: hsl(228, 45%, 44%); 
-    }
+
+.main-component {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 10%;
 }
+
+.outher-frame {
+    background: white;
+    border-radius: 20px;
+    align-self: center;
+    width: 400px;
+    height: auto;
+    margin-bottom: 0.5em;
+    overflow: hidden;
+}
+
+.outher-frame #image {
+    background: center center;
+    border-radius: 10%;
+    width: 400px;
+    padding: 20px 20px;
+    max-width: 90%;
+}
+
+.outher-frame .first-line{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    color:  hsl(218, 44%, 22%);
+}
+
+.outher-frame .second-line{
+    display: inline-block;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 8em;
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
 
 @media(max-width: 375px) {
     .outher-frame {
